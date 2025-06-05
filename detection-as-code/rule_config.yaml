@@ -418,6 +418,18 @@ network_traffic_to_specific_country:
   revision_id: v_1749124138_723471000
   run_frequency: LIVE
   type: SINGLE_EVENT
+new_rule:
+  alerting: false
+  archive_time: null
+  archived: false
+  create_time: '2025-06-05T12:29:41.499711Z'
+  enabled: true
+  id: ru_2629e160-e5a6-448f-bcd3-d2ef95173908
+  resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_2629e160-e5a6-448f-bcd3-d2ef95173908
+  revision_create_time: '2025-06-05T12:29:41.499711Z'
+  revision_id: v_1749126581_499711000
+  run_frequency: LIVE
+  type: SINGLE_EVENT
 okta_mfa_brute_force_attack:
   alerting: false
   archive_time: null
@@ -922,7 +934,3 @@ wmic_ntds_dit_T1003_003_cisa_report:
   revision_id: v_1749124159_213951000
   run_frequency: LIVE
   type: SINGLE_EVENT
-new_rule:
-  alerting: false
-  enabled: true
-
