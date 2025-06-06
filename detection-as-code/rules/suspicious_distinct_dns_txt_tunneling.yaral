@@ -1,0 +1,35 @@
+rule suspicious_distinct_dns_txt_tunneling {
+  meta:
+    author = "Cline - AI Assistant"
+    description = "Detects potential DNS tunneling by identifying a single host making a high number of DNS TXT queries to many distinct FQDNs. This pattern is often seen in C2 communication or data exfiltration via DNS."
+    severity = "HIGH"
+    // rule_id: (generate a unique ID as per your system's convention)
+    // references:
+    // - Based on findings from threat hunt for hypothesis: Suspected use of DNS tunneling for C2 (June 6, 2025)
+    // - Observed activity: host 10.10.20.60 querying multiple distinct subdomains of rdmsi.com via TXT records.
+  events:
+    // Event: A single DNS query that is a TXT record request
+    $dns_txt_query.metadata.event_type = "NETWORK_DNS"
+    $dns_txt_query.network.dns.questions.type = 16 // TXT record type (RFC 1035)
+    $dns_txt_query.principal.ip != null // Ensure there's a source IP
+    $dns_txt_query.network.dns.questions.name != null // Ensure there's a query name
+
+  match:
+    // Group by the source IP address over a 1-hour window
+    $source_ip = $dns_txt_query.principal.ip
+
+  condition:
+    // Alert if a single source IP ($source_ip)
+    // makes more than X total TXT queries in the window
+    // AND those queries are to more than Y distinct FQDNs.
+    // This combination helps identify sustained activity to varied endpoints,
+    // characteristic of tunneling, while reducing noise from legitimate services
+    // that might make repeated TXT queries to the same few FQDNs.
+
+    #dns_txt_query > 20 and count_distinct($dns_txt_query.network.dns.questions.name) > 10
+    // Thresholds:
+    // - #dns_txt_query > 20: More than 20 TXT queries in total from the source IP in 1 hour.
+    // - count_distinct($dns_txt_query.network.dns.questions.name) > 10: Those queries are for more than 10 distinct FQDNs.
+    // These thresholds should be tuned based on your environment's baseline DNS activity
+    // to balance sensitivity and noise.
+}

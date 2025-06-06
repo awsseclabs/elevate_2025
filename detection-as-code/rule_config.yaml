@@ -934,3 +934,6 @@ wmic_ntds_dit_T1003_003_cisa_report:
   revision_id: v_1749124159_213951000
   run_frequency: LIVE
   type: SINGLE_EVENT
+suspicious_distinct_dns_txt_tunneling:
+  alerting: false
+  enabled: false
