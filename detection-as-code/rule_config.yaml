@@ -1,6 +1,3 @@
-demorule:
-  alerting: false
-  enabled: true
 adfs_db_suspicious_named_pipe_connection:
   alerting: false
   archive_time: null
@@ -613,6 +610,18 @@ aws_user_creates_permenant_access_key:
   revision_id: v_1749383429_928655000
   run_frequency: LIVE
   type: SINGLE_EVENT
+demorule:
+  alerting: false
+  archive_time: null
+  archived: false
+  create_time: '2025-06-09T11:55:52.936047Z'
+  enabled: true
+  id: ru_84b8bf77-f4ff-4630-92d0-54648d79baff
+  resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_84b8bf77-f4ff-4630-92d0-54648d79baff
+  revision_create_time: '2025-06-09T11:55:52.936047Z'
+  revision_id: v_1749470152_936047000
+  run_frequency: LIVE
+  type: SINGLE_EVENT
 demoverse_Chrome_Browser_Alert_SideLoaded_Extensions:
   alerting: false
   archive_time: null
@@ -993,8 +1002,8 @@ ip_target_prevalence:
   enabled: false
   id: ru_c914fbc0-9f34-4980-9697-45160210fd95
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_c914fbc0-9f34-4980-9697-45160210fd95
-  revision_create_time: '2025-06-06T02:15:49.562879Z'
-  revision_id: v_1749176149_562879000
+  revision_create_time: '2025-06-09T11:55:52.113935Z'
+  revision_id: v_1749470152_113935000
   run_frequency: LIVE
   type: MULTI_EVENT
 logins_from_terminated_employees:
