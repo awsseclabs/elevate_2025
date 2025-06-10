@@ -1,4 +1,7 @@
-geoip_user_login_from_multiple_states_or_countries
+test123:
+  alerting: false
+  enabled: true
+geoip_user_login_from_multiple_states_or_countries:
   alerting: false
   enabled: true
 adfs_db_suspicious_named_pipe_connection:
