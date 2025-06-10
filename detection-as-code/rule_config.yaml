@@ -1,3 +1,6 @@
+abcrule:
+  alerting: false
+  enabled: true
 adfs_db_suspicious_named_pipe_connection:
   alerting: false
   archive_time: null
