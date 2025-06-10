@@ -1,4 +1,4 @@
-rule impacket_wmiexec_cisa_report {
+rule homersnewrule {
  
   meta:
     author = "Google Cloud Security"
