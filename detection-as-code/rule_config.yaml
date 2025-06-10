@@ -1,3 +1,6 @@
+homersnewrule:
+  alerting: false
+  enabled: true
 abcrule:
   alerting: false
   archive_time: null
