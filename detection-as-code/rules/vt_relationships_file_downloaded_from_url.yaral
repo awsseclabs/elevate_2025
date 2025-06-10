@@ -1,7 +1,7 @@
 rule vt_relationships_file_downloaded_from_url {
   
   meta:
-    author = "Google Cloud Security"
+    author = "Google Cloud Security "
     description = "Alert on downloading a known file hash from a known IP with VT Relationships."
     type = "alert"
     tags = "vt"
