@@ -795,11 +795,35 @@ domain_prevalence:
   archive_time: null
   archived: false
   create_time: '2025-06-04T11:48:11.372671Z'
-  enabled: false
+  enabled: true
   id: ru_8fdfd53f-4921-4aaf-8532-d8a99fa7e0ad
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_8fdfd53f-4921-4aaf-8532-d8a99fa7e0ad
   revision_create_time: '2025-06-04T11:48:11.372671Z'
   revision_id: v_1749037691_372671000
+  run_frequency: LIVE
+  type: MULTI_EVENT
+elevatenewrule:
+  alerting: false
+  archive_time: null
+  archived: false
+  create_time: '2025-06-11T18:18:59.993743Z'
+  enabled: true
+  id: ru_2ced77aa-c653-4dfb-914f-31eeb0de8b88
+  resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_2ced77aa-c653-4dfb-914f-31eeb0de8b88
+  revision_create_time: '2025-06-11T18:18:59.993743Z'
+  revision_id: v_1749665939_993743000
+  run_frequency: LIVE
+  type: MULTI_EVENT
+elevatenewrule2:
+  alerting: false
+  archive_time: null
+  archived: false
+  create_time: '2025-06-11T22:33:49.087871Z'
+  enabled: true
+  id: ru_a1b4e36a-9275-4a8e-9d3c-8b4d52e29068
+  resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_a1b4e36a-9275-4a8e-9d3c-8b4d52e29068
+  revision_create_time: '2025-06-11T22:33:49.087871Z'
+  revision_id: v_1749681229_087871000
   run_frequency: LIVE
   type: MULTI_EVENT
 gcti_benign_binaries_contacts_tor_exit_node:
@@ -891,7 +915,7 @@ hash_prevalence:
   archive_time: null
   archived: false
   create_time: '2025-06-04T11:48:10.560431Z'
-  enabled: false
+  enabled: true
   id: ru_3632bd2a-5880-4114-a8bd-223cc564a774
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_3632bd2a-5880-4114-a8bd-223cc564a774
   revision_create_time: '2025-06-04T11:48:10.560431Z'
@@ -1026,8 +1050,8 @@ ip_target_prevalence:
   enabled: false
   id: ru_c914fbc0-9f34-4980-9697-45160210fd95
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_c914fbc0-9f34-4980-9697-45160210fd95
-  revision_create_time: '2025-06-10T20:49:48.656159Z'
-  revision_id: v_1749588588_656159000
+  revision_create_time: '2025-06-11T11:51:27.871807Z'
+  revision_id: v_1749642687_871807000
   run_frequency: LIVE
   type: MULTI_EVENT
 logins_from_terminated_employees:
@@ -1750,6 +1774,18 @@ ssh_bruteforce:
   revision_id: v_1749383453_689727000
   run_frequency: HOURLY
   type: MULTI_EVENT
+sumittestrule:
+  alerting: false
+  archive_time: null
+  archived: false
+  create_time: '2025-06-11T21:13:29.208943Z'
+  enabled: true
+  id: ru_c39cc59c-583c-4dd3-a317-00762a8d0d79
+  resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_c39cc59c-583c-4dd3-a317-00762a8d0d79
+  revision_create_time: '2025-06-11T21:13:29.208943Z'
+  revision_id: v_1749676409_208943000
+  run_frequency: HOURLY
+  type: MULTI_EVENT
 suspicious_asn:
   alerting: false
   archive_time: null
@@ -1774,6 +1810,18 @@ suspicious_download_office:
   revision_id: v_1749124134_336383000
   run_frequency: LIVE
   type: MULTI_EVENT
+suspicious_rdp_execution_from_outlook_cache:
+  alerting: false
+  archive_time: null
+  archived: false
+  create_time: '2025-06-10T23:46:03.818831Z'
+  enabled: false
+  id: ru_17a3a89b-80e4-4b21-a3ba-7f82b0babb24
+  resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_17a3a89b-80e4-4b21-a3ba-7f82b0babb24
+  revision_create_time: '2025-06-10T23:46:37.582767Z'
+  revision_id: v_1749599197_582767000
+  run_frequency: LIVE
+  type: SINGLE_EVENT
 suspicious_unusual_location_lnk_file:
   alerting: false
   archive_time: null

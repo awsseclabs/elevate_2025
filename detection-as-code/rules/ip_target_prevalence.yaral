@@ -8,7 +8,6 @@ rule ip_target_prevalence {
     data_source = "crowdstrike, gcp firewall, microsoft sysmon, gcp scc, microsoft defender atp, corelight zeek, microsoft windows events"
     severity = "Low"
     priority = "Low"
-    // huddle
 
   events:
     $network.metadata.base_labels.namespaces = "LogStory"
