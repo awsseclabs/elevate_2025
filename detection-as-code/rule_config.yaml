@@ -1047,7 +1047,7 @@ ip_target_prevalence:
   archive_time: null
   archived: false
   create_time: '2025-06-04T11:48:09.623535Z'
-  enabled: false
+  enabled: true
   id: ru_c914fbc0-9f34-4980-9697-45160210fd95
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_c914fbc0-9f34-4980-9697-45160210fd95
   revision_create_time: '2025-06-11T11:51:27.871807Z'
