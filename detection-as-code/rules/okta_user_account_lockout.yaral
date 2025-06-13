@@ -12,7 +12,6 @@ rule okta_user_account_lockout {
     data_source = "Okta"
     severity = "Medium"
     priority = "Medium"
-    comment = "ce huddle"
 
   events:
     $login.metadata.base_labels.namespaces = "LogStory"

@@ -11,11 +11,11 @@ abcrule:
   run_frequency: LIVE
   type: SINGLE_EVENT
 adfs_db_suspicious_named_pipe_connection:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:57.024239Z'
-  enabled: false
+  enabled: true
   id: ru_a7a04236-439a-48a1-9f6f-84407ea7aa40
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_a7a04236-439a-48a1-9f6f-84407ea7aa40
   revision_create_time: '2025-06-05T11:48:57.024239Z'
@@ -23,11 +23,11 @@ adfs_db_suspicious_named_pipe_connection:
   run_frequency: LIVE
   type: SINGLE_EVENT
 ag_ioc_sha256_hash_vt_basic:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:00.288015Z'
-  enabled: false
+  enabled: true
   id: ru_0d9a5d74-3fd1-4ea5-990f-7c7dc82aa7ff
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_0d9a5d74-3fd1-4ea5-990f-7c7dc82aa7ff
   revision_create_time: '2025-06-05T11:49:00.288015Z'
@@ -635,11 +635,11 @@ demorule:
   run_frequency: LIVE
   type: SINGLE_EVENT
 demoverse_Chrome_Browser_Alert_SideLoaded_Extensions:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:28.303151Z'
-  enabled: false
+  enabled: true
   id: ru_5cdbe0b2-2ead-4d8f-9ded-8b53125aeee9
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_5cdbe0b2-2ead-4d8f-9ded-8b53125aeee9
   revision_create_time: '2025-06-05T11:48:28.303151Z'
@@ -647,11 +647,11 @@ demoverse_Chrome_Browser_Alert_SideLoaded_Extensions:
   run_frequency: LIVE
   type: SINGLE_EVENT
 demoverse_Chrome_Browser_DLP_Alert_Paste_Content:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:29.334943Z'
-  enabled: false
+  enabled: true
   id: ru_8c8f61b7-1e40-4829-8838-f4114a0000f2
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_8c8f61b7-1e40-4829-8838-f4114a0000f2
   revision_create_time: '2025-06-05T11:48:29.334943Z'
@@ -659,11 +659,11 @@ demoverse_Chrome_Browser_DLP_Alert_Paste_Content:
   run_frequency: LIVE
   type: SINGLE_EVENT
 demoverse_Chrome_Browser_DLP_File_Transfer_Alert:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:33.645519Z'
-  enabled: false
+  enabled: true
   id: ru_32e55877-a133-4e3a-b646-f590dae8a999
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_32e55877-a133-4e3a-b646-f590dae8a999
   revision_create_time: '2025-06-05T11:48:33.645519Z'
@@ -671,11 +671,11 @@ demoverse_Chrome_Browser_DLP_File_Transfer_Alert:
   run_frequency: LIVE
   type: SINGLE_EVENT
 demoverse_HMS_CatchAll:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:30.284191Z'
-  enabled: false
+  enabled: true
   id: ru_91ff51da-fab9-4b4a-becb-c0b62063bc5b
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_91ff51da-fab9-4b4a-becb-c0b62063bc5b
   revision_create_time: '2025-06-05T11:48:30.284191Z'
@@ -683,11 +683,11 @@ demoverse_HMS_CatchAll:
   run_frequency: LIVE
   type: SINGLE_EVENT
 demoverse_cryptocurrency_mining_yara:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:31.046591Z'
-  enabled: false
+  enabled: true
   id: ru_b6d2d50d-311c-443c-94a9-89475bea12e7
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_b6d2d50d-311c-443c-94a9-89475bea12e7
   revision_create_time: '2025-06-05T11:48:31.046591Z'
@@ -695,11 +695,11 @@ demoverse_cryptocurrency_mining_yara:
   run_frequency: LIVE
   type: SINGLE_EVENT
 demoverse_mandiant_asm_confirmed_cve_alert:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:32.849119Z'
-  enabled: false
+  enabled: true
   id: ru_6f5e1619-0daf-474c-b5bb-1fe57b154cb6
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_6f5e1619-0daf-474c-b5bb-1fe57b154cb6
   revision_create_time: '2025-06-05T11:48:32.849119Z'
@@ -707,11 +707,11 @@ demoverse_mandiant_asm_confirmed_cve_alert:
   run_frequency: LIVE
   type: SINGLE_EVENT
 demoverse_safebrowsing_file_creation:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:35.229871Z'
-  enabled: false
+  enabled: true
   id: ru_1ffbde4f-0c63-43f0-8e6f-a7540a611b7f
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_1ffbde4f-0c63-43f0-8e6f-a7540a611b7f
   revision_create_time: '2025-06-05T11:48:35.229871Z'
@@ -719,11 +719,11 @@ demoverse_safebrowsing_file_creation:
   run_frequency: HOURLY
   type: MULTI_EVENT
 demoverse_suspicious_auth_unusual_interval_time:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:31.848655Z'
-  enabled: false
+  enabled: true
   id: ru_90c96434-3cbd-488a-aead-7036860f76e3
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_90c96434-3cbd-488a-aead-7036860f76e3
   revision_create_time: '2025-06-05T11:48:31.848655Z'
@@ -755,11 +755,11 @@ demoverse_suspicious_auth_unusual_interval_time_v2:
   run_frequency: HOURLY
   type: MULTI_EVENT
 demoverse_user_download_executable_from_macro:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:36.020383Z'
-  enabled: false
+  enabled: true
   id: ru_80e4722e-1faa-48ab-a2f5-0d9831d60321
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_80e4722e-1faa-48ab-a2f5-0d9831d60321
   revision_create_time: '2025-06-05T11:48:36.020383Z'
@@ -767,11 +767,11 @@ demoverse_user_download_executable_from_macro:
   run_frequency: LIVE
   type: MULTI_EVENT
 demoverse_workspace_MalwareDownload:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:34.441519Z'
-  enabled: false
+  enabled: true
   id: ru_dc7f8e30-b345-42ac-a33b-ce7d0ae57ec5
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_dc7f8e30-b345-42ac-a33b-ce7d0ae57ec5
   revision_create_time: '2025-06-05T11:48:34.441519Z'
@@ -827,11 +827,11 @@ elevatenewrule2:
   run_frequency: LIVE
   type: MULTI_EVENT
 gcti_benign_binaries_contacts_tor_exit_node:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:05.172735Z'
-  enabled: false
+  enabled: true
   id: ru_84d9d383-d932-4247-816b-fe422d4e5cee
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_84d9d383-d932-4247-816b-fe422d4e5cee
   revision_create_time: '2025-06-05T11:49:05.172735Z'
@@ -839,11 +839,11 @@ gcti_benign_binaries_contacts_tor_exit_node:
   run_frequency: LIVE
   type: MULTI_EVENT
 gcti_remote_access_tools:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:01.803599Z'
-  enabled: false
+  enabled: true
   id: ru_c1589fc9-40b8-4e1f-b872-6c7d7185a10a
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_c1589fc9-40b8-4e1f-b872-6c7d7185a10a
   revision_create_time: '2025-06-05T11:49:01.803599Z'
@@ -851,11 +851,11 @@ gcti_remote_access_tools:
   run_frequency: LIVE
   type: MULTI_EVENT
 gcti_tor_exit_nodes:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:43.906655Z'
-  enabled: false
+  enabled: true
   id: ru_3e1d6a48-f628-4d98-b562-cb159c91c25d
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_3e1d6a48-f628-4d98-b562-cb159c91c25d
   revision_create_time: '2025-06-05T11:48:43.906655Z'
@@ -863,11 +863,11 @@ gcti_tor_exit_nodes:
   run_frequency: HOURLY
   type: MULTI_EVENT
 geoip_user_login_from_multiple_states_or_countries:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:11.333247Z'
-  enabled: false
+  enabled: true
   id: ru_855933e5-cc3a-40d9-bc9e-de1f4935478f
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_855933e5-cc3a-40d9-bc9e-de1f4935478f
   revision_create_time: '2025-06-05T11:49:11.333247Z'
@@ -887,11 +887,11 @@ google_safebrowsing_file_contacts_tor_exit_node:
   run_frequency: HOURLY
   type: MULTI_EVENT
 google_safebrowsing_file_process_creation:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:21.100895Z'
-  enabled: false
+  enabled: true
   id: ru_f5ec323b-2b9e-4421-824c-9906931484bc
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_f5ec323b-2b9e-4421-824c-9906931484bc
   revision_create_time: '2025-06-05T11:49:21.100895Z'
@@ -899,11 +899,11 @@ google_safebrowsing_file_process_creation:
   run_frequency: HOURLY
   type: MULTI_EVENT
 google_safebrowsing_with_prevalence:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:09.959199Z'
-  enabled: false
+  enabled: true
   id: ru_1048bfb9-c9cc-47fc-b531-91db1f091b94
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_1048bfb9-c9cc-47fc-b531-91db1f091b94
   revision_create_time: '2025-06-05T11:49:09.959199Z'
@@ -947,11 +947,11 @@ homersnewrule:
   run_frequency: LIVE
   type: SINGLE_EVENT
 impacket_wmiexec_cisa_report:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:28.122767Z'
-  enabled: false
+  enabled: true
   id: ru_7297a58f-613a-4419-a85b-8e55305e6185
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_7297a58f-613a-4419-a85b-8e55305e6185
   revision_create_time: '2025-06-05T11:49:28.122767Z'
@@ -971,11 +971,11 @@ info_bat:
   run_frequency: LIVE
   type: SINGLE_EVENT
 ioc_domain_C2:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:09.201151Z'
-  enabled: false
+  enabled: true
   id: ru_cfe8c10b-a2c7-4d9c-b840-0e390fe4d47b
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_cfe8c10b-a2c7-4d9c-b840-0e390fe4d47b
   revision_create_time: '2025-06-05T11:49:09.201151Z'
@@ -983,11 +983,11 @@ ioc_domain_C2:
   run_frequency: LIVE
   type: MULTI_EVENT
 ioc_domain_internal_policy:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:20.146399Z'
-  enabled: false
+  enabled: true
   id: ru_47a011fc-1de5-4777-9637-0f9c5a4346c8
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_47a011fc-1de5-4777-9637-0f9c5a4346c8
   revision_create_time: '2025-06-05T11:49:20.146399Z'
@@ -995,11 +995,11 @@ ioc_domain_internal_policy:
   run_frequency: LIVE
   type: MULTI_EVENT
 ioc_hash_prevalence:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:47.115247Z'
-  enabled: false
+  enabled: true
   id: ru_a76eae67-c910-4c66-8405-4d7edde734f0
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_a76eae67-c910-4c66-8405-4d7edde734f0
   revision_create_time: '2025-06-05T11:48:47.115247Z'
@@ -1007,11 +1007,11 @@ ioc_hash_prevalence:
   run_frequency: LIVE
   type: MULTI_EVENT
 ioc_ip_target:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:59.332735Z'
-  enabled: false
+  enabled: true
   id: ru_ecaebc18-c496-4743-8368-d17e367613f0
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_ecaebc18-c496-4743-8368-d17e367613f0
   revision_create_time: '2025-06-05T11:48:59.332735Z'
@@ -1019,11 +1019,11 @@ ioc_ip_target:
   run_frequency: LIVE
   type: MULTI_EVENT
 ioc_sha256_hash:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:52.055183Z'
-  enabled: false
+  enabled: true
   id: ru_5df7464f-3199-4e1b-9242-4df0d27d5ce0
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_5df7464f-3199-4e1b-9242-4df0d27d5ce0
   revision_create_time: '2025-06-05T11:48:52.055183Z'
@@ -1031,11 +1031,11 @@ ioc_sha256_hash:
   run_frequency: LIVE
   type: MULTI_EVENT
 ioc_sha256_hash_vt:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:44.885887Z'
-  enabled: false
+  enabled: true
   id: ru_79223479-2f81-4059-89a0-9df529cb8765
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_79223479-2f81-4059-89a0-9df529cb8765
   revision_create_time: '2025-06-05T11:48:44.885887Z'
@@ -1079,11 +1079,11 @@ low_prevalence_hash_on_process_launch_low_prevalence_domain_accessed:
   run_frequency: LIVE
   type: MULTI_EVENT
 malware_win_lokibot_c2:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:15.090143Z'
-  enabled: false
+  enabled: true
   id: ru_85b636c8-d95a-4788-8042-62ba5bb2256c
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_85b636c8-d95a-4788-8042-62ba5bb2256c
   revision_create_time: '2025-06-05T11:49:15.090143Z'
@@ -1091,11 +1091,11 @@ malware_win_lokibot_c2:
   run_frequency: LIVE
   type: SINGLE_EVENT
 mitre_attack_T1021_002_windows_admin_share_basic:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:24.818975Z'
-  enabled: false
+  enabled: true
   id: ru_0231c4fb-2e43-410b-a28b-c49658bff954
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_0231c4fb-2e43-410b-a28b-c49658bff954
   revision_create_time: '2025-06-05T11:49:24.818975Z'
@@ -1115,11 +1115,11 @@ mitre_attack_T1021_002_windows_admin_share_with_asset_entity:
   run_frequency: LIVE
   type: MULTI_EVENT
 mitre_attack_T1021_002_windows_admin_share_with_user_enrichment:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:40.304623Z'
-  enabled: false
+  enabled: true
   id: ru_552c2a9c-22d6-427e-86bd-0d2698091b18
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_552c2a9c-22d6-427e-86bd-0d2698091b18
   revision_create_time: '2025-06-05T11:48:40.304623Z'
@@ -1127,11 +1127,11 @@ mitre_attack_T1021_002_windows_admin_share_with_user_enrichment:
   run_frequency: LIVE
   type: SINGLE_EVENT
 mitre_attack_T1021_002_windows_admin_share_with_user_entity:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:57.976831Z'
-  enabled: false
+  enabled: true
   id: ru_31303be5-f5ae-4845-aef9-7b5599526fa8
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_31303be5-f5ae-4845-aef9-7b5599526fa8
   revision_create_time: '2025-06-05T11:48:57.976831Z'
@@ -1151,11 +1151,11 @@ mitre_attack_T1053_005_windows_creation_of_scheduled_task:
   run_frequency: LIVE
   type: SINGLE_EVENT
 mitre_attack_T1140_encoded_powershell_command:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:45.681103Z'
-  enabled: false
+  enabled: true
   id: ru_6aa4fc1e-5b1f-4fd5-bcdf-0e6cd7f43208
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_6aa4fc1e-5b1f-4fd5-bcdf-0e6cd7f43208
   revision_create_time: '2025-06-05T11:48:45.681103Z'
@@ -1187,11 +1187,11 @@ network_connection_first_seen_in_past_day:
   run_frequency: HOURLY
   type: MULTI_EVENT
 network_http_low_prevalence_domain_access:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:15.890655Z'
-  enabled: false
+  enabled: true
   id: ru_585356b3-b2c2-4d4e-82be-3ab329250fab
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_585356b3-b2c2-4d4e-82be-3ab329250fab
   revision_create_time: '2025-06-05T11:49:15.890655Z'
@@ -1199,11 +1199,11 @@ network_http_low_prevalence_domain_access:
   run_frequency: HOURLY
   type: MULTI_EVENT
 network_traffic_to_specific_country:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:58.723471Z'
-  enabled: false
+  enabled: true
   id: ru_1a97042a-6463-472a-83dc-acf43c7108e0
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_1a97042a-6463-472a-83dc-acf43c7108e0
   revision_create_time: '2025-06-05T11:48:58.723471Z'
@@ -1391,11 +1391,11 @@ o365_recently_created_entra_id_user_assigned_roles:
   run_frequency: HOURLY
   type: MULTI_EVENT
 okta_mfa_brute_force_attack:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:48.866991Z'
-  enabled: false
+  enabled: true
   id: ru_94844619-a32c-42d3-9848-aba694aa6d00
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_94844619-a32c-42d3-9848-aba694aa6d00
   revision_create_time: '2025-06-05T11:48:48.866991Z'
@@ -1403,11 +1403,11 @@ okta_mfa_brute_force_attack:
   run_frequency: LIVE
   type: MULTI_EVENT
 okta_mismatch_between_source_and_response_for_verify_push_request:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:37.803887Z'
-  enabled: false
+  enabled: true
   id: ru_7dccf0b3-e50c-406f-bd98-d75c6c8b8b32
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_7dccf0b3-e50c-406f-bd98-d75c6c8b8b32
   revision_create_time: '2025-06-05T11:48:37.803887Z'
@@ -1415,11 +1415,11 @@ okta_mismatch_between_source_and_response_for_verify_push_request:
   run_frequency: LIVE
   type: MULTI_EVENT
 okta_multiple_failed_requests_to_access_applications:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:05.937295Z'
-  enabled: false
+  enabled: true
   id: ru_e9f693ee-7dd7-41c1-b6b1-9190208b5746
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_e9f693ee-7dd7-41c1-b6b1-9190208b5746
   revision_create_time: '2025-06-05T11:49:05.937295Z'
@@ -1427,11 +1427,11 @@ okta_multiple_failed_requests_to_access_applications:
   run_frequency: LIVE
   type: MULTI_EVENT
 okta_multiple_users_logins_with_invalid_credentials_from_the_same_ip:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:55.082543Z'
-  enabled: false
+  enabled: true
   id: ru_63dd3114-acb1-4987-b357-d4deac738b4d
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_63dd3114-acb1-4987-b357-d4deac738b4d
   revision_create_time: '2025-06-05T11:48:55.082543Z'
@@ -1439,11 +1439,11 @@ okta_multiple_users_logins_with_invalid_credentials_from_the_same_ip:
   run_frequency: HOURLY
   type: MULTI_EVENT
 okta_new_api_token_created:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:04.406607Z'
-  enabled: false
+  enabled: true
   id: ru_dfde8dea-7012-4bd1-b5c5-d16a1139e8b3
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_dfde8dea-7012-4bd1-b5c5-d16a1139e8b3
   revision_create_time: '2025-06-05T11:49:04.406607Z'
@@ -1451,11 +1451,11 @@ okta_new_api_token_created:
   run_frequency: HOURLY
   type: SINGLE_EVENT
 okta_phishing_detection_with_fastpass_origin_check:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:22.646879Z'
-  enabled: false
+  enabled: true
   id: ru_a99fb742-6b86-401b-aa29-6ee3e3222c70
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_a99fb742-6b86-401b-aa29-6ee3e3222c70
   revision_create_time: '2025-06-05T11:49:22.646879Z'
@@ -1463,11 +1463,11 @@ okta_phishing_detection_with_fastpass_origin_check:
   run_frequency: HOURLY
   type: SINGLE_EVENT
 okta_successful_high_risk_user_logins:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:50.448015Z'
-  enabled: false
+  enabled: true
   id: ru_21c438c9-2407-4d8f-8cc9-0bd7e8ea7c58
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_21c438c9-2407-4d8f-8cc9-0bd7e8ea7c58
   revision_create_time: '2025-06-05T11:48:50.448015Z'
@@ -1475,11 +1475,11 @@ okta_successful_high_risk_user_logins:
   run_frequency: LIVE
   type: MULTI_EVENT
 okta_suspicious_use_of_a_session_cookie:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:02.772959Z'
-  enabled: false
+  enabled: true
   id: ru_69288ecb-b1cb-49b8-ab91-e9e97bc6fe36
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_69288ecb-b1cb-49b8-ab91-e9e97bc6fe36
   revision_create_time: '2025-06-05T11:49:02.772959Z'
@@ -1487,11 +1487,11 @@ okta_suspicious_use_of_a_session_cookie:
   run_frequency: HOURLY
   type: MULTI_EVENT
 okta_threatinsight_login_failure_with_high_unknown_users:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:41.323135Z'
-  enabled: false
+  enabled: true
   id: ru_d7986420-b757-4496-83a4-ea5e9b6b88f0
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_d7986420-b757-4496-83a4-ea5e9b6b88f0
   revision_create_time: '2025-06-05T11:48:41.323135Z'
@@ -1499,11 +1499,11 @@ okta_threatinsight_login_failure_with_high_unknown_users:
   run_frequency: HOURLY
   type: SINGLE_EVENT
 okta_threatinsight_suspected_brute_force_attack:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:26.591567Z'
-  enabled: false
+  enabled: true
   id: ru_12ca2f78-e306-4b1f-b9c7-df27e648c025
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_12ca2f78-e306-4b1f-b9c7-df27e648c025
   revision_create_time: '2025-06-05T11:49:26.591567Z'
@@ -1511,11 +1511,11 @@ okta_threatinsight_suspected_brute_force_attack:
   run_frequency: HOURLY
   type: SINGLE_EVENT
 okta_threatinsight_suspected_password_spray_attack:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:08.270463Z'
-  enabled: false
+  enabled: true
   id: ru_c2c58f7b-7ef3-4e35-9a6b-9eb9a12e9897
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_c2c58f7b-7ef3-4e35-9a6b-9eb9a12e9897
   revision_create_time: '2025-06-05T11:49:08.270463Z'
@@ -1523,11 +1523,11 @@ okta_threatinsight_suspected_password_spray_attack:
   run_frequency: LIVE
   type: SINGLE_EVENT
 okta_threatinsight_targeted_brute_force_attack:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:56.048431Z'
-  enabled: false
+  enabled: true
   id: ru_6d61e0ce-3ef2-4125-a4a7-4f969856dfe8
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_6d61e0ce-3ef2-4125-a4a7-4f969856dfe8
   revision_create_time: '2025-06-05T11:48:56.048431Z'
@@ -1542,16 +1542,16 @@ okta_user_account_lockout:
   enabled: false
   id: ru_c4233102-b5e1-4db8-9ca3-3309e8a6f449
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_c4233102-b5e1-4db8-9ca3-3309e8a6f449
-  revision_create_time: '2025-06-06T02:44:13.278415Z'
-  revision_id: v_1749177853_278415000
+  revision_create_time: '2025-06-13T11:54:17.753327Z'
+  revision_id: v_1749815657_753327000
   run_frequency: HOURLY
   type: SINGLE_EVENT
 okta_user_failed_number_challenge_during_push_notification:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:14.319823Z'
-  enabled: false
+  enabled: true
   id: ru_402fc3c2-14c0-4d2c-840a-a2697860e120
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_402fc3c2-14c0-4d2c-840a-a2697860e120
   revision_create_time: '2025-06-05T11:49:14.319823Z'
@@ -1559,11 +1559,11 @@ okta_user_failed_number_challenge_during_push_notification:
   run_frequency: HOURLY
   type: SINGLE_EVENT
 okta_user_login_out_of_hours:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:42.959567Z'
-  enabled: false
+  enabled: true
   id: ru_a17ea9a0-284e-4175-bc48-b416a3db8eb5
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_a17ea9a0-284e-4175-bc48-b416a3db8eb5
   revision_create_time: '2025-06-05T11:48:42.959567Z'
@@ -1571,11 +1571,11 @@ okta_user_login_out_of_hours:
   run_frequency: HOURLY
   type: SINGLE_EVENT
 okta_user_logins_from_multiple_cities:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:18.258591Z'
-  enabled: false
+  enabled: true
   id: ru_c70239a3-72d3-4d25-b53f-2125da840544
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_c70239a3-72d3-4d25-b53f-2125da840544
   revision_create_time: '2025-06-05T11:49:18.258591Z'
@@ -1583,11 +1583,11 @@ okta_user_logins_from_multiple_cities:
   run_frequency: HOURLY
   type: MULTI_EVENT
 okta_user_rejected_multiple_push_notifications:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:25.806559Z'
-  enabled: false
+  enabled: true
   id: ru_acddf3e1-8f1c-4625-be93-974f4d486a29
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_acddf3e1-8f1c-4625-be93-974f4d486a29
   revision_create_time: '2025-06-05T11:49:25.806559Z'
@@ -1595,11 +1595,11 @@ okta_user_rejected_multiple_push_notifications:
   run_frequency: LIVE
   type: MULTI_EVENT
 okta_user_suspicious_activity_reported:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:10.575743Z'
-  enabled: false
+  enabled: true
   id: ru_9c1bddb7-aa1a-4e5c-9563-e7f5de827819
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_9c1bddb7-aa1a-4e5c-9563-e7f5de827819
   revision_create_time: '2025-06-05T11:49:10.575743Z'
@@ -1619,11 +1619,11 @@ phishing_from_pp:
   run_frequency: LIVE
   type: SINGLE_EVENT
 port_proxy_forwarding_T1090_cisa_report:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:52.862255Z'
-  enabled: false
+  enabled: true
   id: ru_a16ecf94-35c3-4c80-8812-9f8b2afbe398
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_a16ecf94-35c3-4c80-8812-9f8b2afbe398
   revision_create_time: '2025-06-05T11:48:52.862255Z'
@@ -1643,11 +1643,11 @@ process_launch_vt_enrichment:
   run_frequency: LIVE
   type: SINGLE_EVENT
 recon_credential_theft_cisa_report:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:17.496495Z'
-  enabled: false
+  enabled: true
   id: ru_592846c9-40c6-48f8-9d9d-57ca7b63729f
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_592846c9-40c6-48f8-9d9d-57ca7b63729f
   revision_create_time: '2025-06-05T11:49:17.496495Z'
@@ -1655,11 +1655,11 @@ recon_credential_theft_cisa_report:
   run_frequency: LIVE
   type: MULTI_EVENT
 recon_environment_enumeration_active_directory_cisa_report:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:39.525951Z'
-  enabled: false
+  enabled: true
   id: ru_3a1d7c53-a4b4-4e25-bb29-5e1402424b69
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_3a1d7c53-a4b4-4e25-bb29-5e1402424b69
   revision_create_time: '2025-06-05T11:48:39.525951Z'
@@ -1667,11 +1667,11 @@ recon_environment_enumeration_active_directory_cisa_report:
   run_frequency: LIVE
   type: MULTI_EVENT
 recon_environment_enumeration_network_cisa_report:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:24.051919Z'
-  enabled: false
+  enabled: true
   id: ru_45aa79aa-cc82-4e50-9ce1-3029988454db
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_45aa79aa-cc82-4e50-9ce1-3029988454db
   revision_create_time: '2025-06-05T11:49:24.051919Z'
@@ -1679,11 +1679,11 @@ recon_environment_enumeration_network_cisa_report:
   run_frequency: LIVE
   type: MULTI_EVENT
 recon_environment_enumeration_system_cisa_report:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:36.984943Z'
-  enabled: false
+  enabled: true
   id: ru_0e278024-2af7-4d93-a39a-20a535ea1ff6
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_0e278024-2af7-4d93-a39a-20a535ea1ff6
   revision_create_time: '2025-06-05T11:48:36.984943Z'
@@ -1703,11 +1703,11 @@ recon_successful_logon_enumeration_powershell_T1033_cisa_report:
   run_frequency: LIVE
   type: SINGLE_EVENT
 recon_suspicious_commands_cisa_report:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:06.702095Z'
-  enabled: false
+  enabled: true
   id: ru_ae0c32a1-931d-42a8-bca6-c45b21fc4b3d
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_ae0c32a1-931d-42a8-bca6-c45b21fc4b3d
   revision_create_time: '2025-06-05T11:49:06.702095Z'
@@ -1727,11 +1727,11 @@ rule_1727979376900:
   run_frequency: LIVE
   type: SINGLE_EVENT
 rw_mimikatz_T1003:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:13.543551Z'
-  enabled: false
+  enabled: true
   id: ru_a1829356-85db-42dc-bf14-ca5b7106dc97
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_a1829356-85db-42dc-bf14-ca5b7106dc97
   revision_create_time: '2025-06-05T11:49:13.543551Z'
@@ -1739,11 +1739,11 @@ rw_mimikatz_T1003:
   run_frequency: LIVE
   type: SINGLE_EVENT
 rw_windows_password_spray_T1110_003:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:00.908735Z'
-  enabled: false
+  enabled: true
   id: ru_2937bed8-b1ad-4da2-9e61-65ba8d717aff
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_2937bed8-b1ad-4da2-9e61-65ba8d717aff
   revision_create_time: '2025-06-05T11:49:00.908735Z'
@@ -1751,11 +1751,11 @@ rw_windows_password_spray_T1110_003:
   run_frequency: LIVE
   type: MULTI_EVENT
 safebrowsing_process_creation_hashes_seen_more_than_7_days:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:07.320943Z'
-  enabled: false
+  enabled: true
   id: ru_c23c014c-cccc-416b-a916-a694bc7ab5fd
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_c23c014c-cccc-416b-a916-a694bc7ab5fd
   revision_create_time: '2025-06-05T11:49:07.320943Z'
@@ -1787,11 +1787,11 @@ sumittestrule:
   run_frequency: HOURLY
   type: MULTI_EVENT
 suspicious_asn:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:16.847119Z'
-  enabled: false
+  enabled: true
   id: ru_1171b97c-ee59-450a-9f95-5a07e0942e4c
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_1171b97c-ee59-450a-9f95-5a07e0942e4c
   revision_create_time: '2025-06-05T11:49:16.847119Z'
@@ -1799,11 +1799,11 @@ suspicious_asn:
   run_frequency: LIVE
   type: SINGLE_EVENT
 suspicious_download_office:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:54.336383Z'
-  enabled: false
+  enabled: true
   id: ru_309e97ac-8dca-4621-8500-527ba9de7706
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_309e97ac-8dca-4621-8500-527ba9de7706
   revision_create_time: '2025-06-05T11:48:54.336383Z'
@@ -1823,11 +1823,11 @@ suspicious_rdp_execution_from_outlook_cache:
   run_frequency: LIVE
   type: SINGLE_EVENT
 suspicious_unusual_location_lnk_file:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:46.325935Z'
-  enabled: false
+  enabled: true
   id: ru_f8ff0662-d567-482a-997b-76b6606e5667
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_f8ff0662-d567-482a-997b-76b6606e5667
   revision_create_time: '2025-06-05T11:48:46.325935Z'
@@ -1859,11 +1859,11 @@ ttp_chrome_admin_password_reused:
   run_frequency: LIVE
   type: SINGLE_EVENT
 vt_relationships_file_contacts_domain:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:51.254159Z'
-  enabled: false
+  enabled: true
   id: ru_3f6aef7f-1b81-4e77-aa96-e566231889d2
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_3f6aef7f-1b81-4e77-aa96-e566231889d2
   revision_create_time: '2025-06-05T11:48:51.254159Z'
@@ -1871,11 +1871,11 @@ vt_relationships_file_contacts_domain:
   run_frequency: LIVE
   type: MULTI_EVENT
 vt_relationships_file_contacts_ip:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:38.755167Z'
-  enabled: false
+  enabled: true
   id: ru_de5a61ad-6ce9-47b2-a914-d967b7101d40
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_de5a61ad-6ce9-47b2-a914-d967b7101d40
   revision_create_time: '2025-06-05T11:48:38.755167Z'
@@ -1883,11 +1883,11 @@ vt_relationships_file_contacts_ip:
   run_frequency: LIVE
   type: MULTI_EVENT
 vt_relationships_file_contacts_tor_ip:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:49.658319Z'
-  enabled: false
+  enabled: true
   id: ru_42a4a56d-b876-454c-9194-5c9a0083cd54
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_42a4a56d-b876-454c-9194-5c9a0083cd54
   revision_create_time: '2025-06-05T11:48:49.658319Z'
@@ -1895,11 +1895,11 @@ vt_relationships_file_contacts_tor_ip:
   run_frequency: LIVE
   type: MULTI_EVENT
 vt_relationships_file_downloaded_from_ip:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:47.870863Z'
-  enabled: false
+  enabled: true
   id: ru_5d6f321f-875c-4b05-ac8c-9a7aa408960e
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_5d6f321f-875c-4b05-ac8c-9a7aa408960e
   revision_create_time: '2025-06-05T11:48:47.870863Z'
@@ -1914,16 +1914,16 @@ vt_relationships_file_downloaded_from_url:
   enabled: false
   id: ru_6ff97fde-d2c0-4057-8b6a-3cdd77cfb37f
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_6ff97fde-d2c0-4057-8b6a-3cdd77cfb37f
-  revision_create_time: '2025-06-10T21:36:11.999455Z'
-  revision_id: v_1749591371_999455000
+  revision_create_time: '2025-06-13T11:54:31.713423Z'
+  revision_id: v_1749815671_713423000
   run_frequency: LIVE
   type: MULTI_EVENT
 vt_relationships_file_executes_file:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:12.727311Z'
-  enabled: false
+  enabled: true
   id: ru_781009c2-1f47-4ee2-a9fd-cfab2a840129
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_781009c2-1f47-4ee2-a9fd-cfab2a840129
   revision_create_time: '2025-06-05T11:49:12.727311Z'
@@ -1931,11 +1931,11 @@ vt_relationships_file_executes_file:
   run_frequency: LIVE
   type: MULTI_EVENT
 whoami_execution:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:12.099583Z'
-  enabled: false
+  enabled: true
   id: ru_475f1a27-f7f6-4164-86d9-e80990b5caba
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_475f1a27-f7f6-4164-86d9-e80990b5caba
   revision_create_time: '2025-06-05T11:49:12.099583Z'
@@ -1955,11 +1955,11 @@ whois_dns_query_to_typosquatting_domain:
   run_frequency: HOURLY
   type: MULTI_EVENT
 whois_expired_domain_accessed:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:23.439663Z'
-  enabled: false
+  enabled: true
   id: ru_e6c07302-43f4-456d-95a9-b0d8639ad518
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_e6c07302-43f4-456d-95a9-b0d8639ad518
   revision_create_time: '2025-06-05T11:49:23.439663Z'
@@ -1967,11 +1967,11 @@ whois_expired_domain_accessed:
   run_frequency: HOURLY
   type: MULTI_EVENT
 whois_expired_domain_executable_downloaded:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:21.867071Z'
-  enabled: false
+  enabled: true
   id: ru_2d5f5d72-85ae-4c7e-a133-9c85a48ae47b
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_2d5f5d72-85ae-4c7e-a133-9c85a48ae47b
   revision_create_time: '2025-06-05T11:49:21.867071Z'
@@ -1991,11 +1991,11 @@ whois_recently_created_domain_access:
   run_frequency: HOURLY
   type: MULTI_EVENT
 win_repeatedAuthFailure_thenSuccess_T1110_001:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:48:42.124751Z'
-  enabled: false
+  enabled: true
   id: ru_a5b50307-fcbe-458c-82da-b1ce3e24e847
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_a5b50307-fcbe-458c-82da-b1ce3e24e847
   revision_create_time: '2025-06-05T11:48:42.124751Z'
@@ -2027,11 +2027,11 @@ win_short_term_account_use:
   run_frequency: HOURLY
   type: MULTI_EVENT
 windows_event_log_cleared:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:27.349327Z'
-  enabled: false
+  enabled: true
   id: ru_853a5f6d-4e76-4c44-8459-6bb8d4fe204c
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_853a5f6d-4e76-4c44-8459-6bb8d4fe204c
   revision_create_time: '2025-06-05T11:49:27.349327Z'
@@ -2039,11 +2039,11 @@ windows_event_log_cleared:
   run_frequency: LIVE
   type: SINGLE_EVENT
 wmic_ntds_dit_T1003_003_cisa_report:
-  alerting: false
+  alerting: true
   archive_time: null
   archived: false
   create_time: '2025-06-05T11:49:19.213951Z'
-  enabled: false
+  enabled: true
   id: ru_ff09af69-0a85-418a-b49c-ec80b4a138d1
   resource_name: projects/1091788191268/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/rules/ru_ff09af69-0a85-418a-b49c-ec80b4a138d1
   revision_create_time: '2025-06-05T11:49:19.213951Z'
