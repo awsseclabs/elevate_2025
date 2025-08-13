@@ -1,0 +1,8 @@
+(?i)\\windows\\system32\\services\.exe,(?i)\\windows\\system32\\svchost\.exe\s-k\slocalservicenetworkrestricted\s-p\s-s\slmhosts
+(?i)\\windows\\explorer\.exe,(?i)\\program\sfiles\\microsoft\svs\scode\\code\.exe
+(?i)\\windows\\system32\\svchost.exe\s-k\snetsvcs\s-p\s-s\sschedule,(?i)\\program\sfiles\s\(x86\)\\microsoft\\edgeupdate\\microsoftedgeupdate\.exe.*schedule
+(?i)\\windows\\explorer\.exe,(?i)\\program\sfiles\\microsoft\sazure\sactive\sdirectory\sconnect\\azureadconnect\.exe
+(?i)\\program\sfiles\\crowdstrike\\csfalconservice\.exe$,(?i)\/k\secho\s\{[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\}
+(?i)\\program\sfiles\s\(x86\)\\google\\googleupdater\\[0-9]{3}\.[0-9]{1}\.[0-9]{4}\.[0-9]{1}\\updater\.exe,(?i)\\program\sfiles\s\(x86\)\\google\\googleupdater\\[0-9]{3}\.[0-9]{1}\.[0-9]{4}\.[0-9]{1}\\updater\.exe
+(?i)\\windows\\system32\\svchost\.exe,(?i)\\windows\\system32\\wbem\\wmiprvse\.exe
+(?i)\\program\sfiles\\microsoft\sazure\sad\ssync\\bin\\miiserver\.exe$,(?i)\\program\sfiles\\microsoft\ssql\sserver\\client\ssdk\\odbc\\170\\tools\\binn\\sqlcmd\.exe

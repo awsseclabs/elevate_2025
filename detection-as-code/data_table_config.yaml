@@ -1,3 +1,58 @@
+command_line_exclusions:
+  columns:
+  - column_index: 0
+    column_type: REGEX
+    key_column: null
+    mapped_column_path: null
+    original_column: principal_command_line
+  - column_index: 1
+    column_type: REGEX
+    key_column: null
+    mapped_column_path: null
+    original_column: target_command_line
+  create_time: '2025-08-13T12:06:02.425439Z'
+  description: null
+  resource_name: projects/sharp-bulwark-412718/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/dataTables/command_line_exclusions
+  row_time_to_live: null
+  rule_associations_count: null
+  rules: null
+  update_time: '2025-08-13T12:11:04.639358Z'
+  uuid: 72b9c7403f764db1a09beadf7664978f
+data_table_ws_subsidiary_users:
+  columns:
+  - column_index: 0
+    column_type: null
+    key_column: null
+    mapped_column_path: entity.user.userid
+    original_column: userid
+  - column_index: 1
+    column_type: null
+    key_column: null
+    mapped_column_path: entity.user.company_name
+    original_column: organization
+  - column_index: 2
+    column_type: STRING
+    key_column: null
+    mapped_column_path: null
+    original_column: state
+  - column_index: 3
+    column_type: STRING
+    key_column: null
+    mapped_column_path: null
+    original_column: probationary
+  - column_index: 4
+    column_type: null
+    key_column: null
+    mapped_column_path: entity.user.hire_date.seconds
+    original_column: start_date
+  create_time: '2025-08-13T12:39:55.266049Z'
+  description: null
+  resource_name: projects/sharp-bulwark-412718/locations/us/instances/6b9f77b6-1fe3-40ad-8746-7a26dc366ac2/dataTables/data_table_ws_subsidiary_users
+  row_time_to_live: null
+  rule_associations_count: null
+  rules: null
+  update_time: '2025-08-13T12:44:57.508341Z'
+  uuid: 31d4c890f5e64c7c821d005595f966b3
 newtable:
   columns:
   - column_index: 0
